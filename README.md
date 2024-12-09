@@ -4,6 +4,12 @@ cd MuseTalk
 pip install -r requirements.txt
 git-lfs install
 git clone https://huggingface.co/afrizalha/musetalk-models models
+pip install -U openmim mmpose
+mim install mmcv
+wget ffmpeg-git-amd64-static.tar.xz
+tar -xf ffmpeg-git-amd64-static.tar.xz
+rm -rf ffmpeg-git-amd64-static.tar.xz
+export FFMPEG_PATH=ffmpeg-git-20240629-amd64-static
 ```
 
 # MuseTalk
