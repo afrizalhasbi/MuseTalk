@@ -1,3 +1,11 @@
+```
+git clone https://github.com/afrizalhasbi/MuseTalk
+cd MuseTalk
+pip install -r requirements.txt
+git-lfs install
+git clone https://huggingface.co/afrizalha/musetalk-models models
+```
+
 # MuseTalk
 
 MuseTalk: Real-Time High Quality Lip Synchronization with Latent Space Inpainting
