@@ -19,3 +19,6 @@ ffmpeg-python
 gradio
 spaces
 moviepy
+huggingface_hub==0.24
+mmdet
+openmim
