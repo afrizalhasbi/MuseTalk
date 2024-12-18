@@ -4,8 +4,8 @@ cd MuseTalk
 pip install -r requirements.txt
 git-lfs install
 git clone https://huggingface.co/afrizalha/musetalk-models models
-pip install -U openmim mmpose
-mim install mmcv
+pip install -U openmim mmdet mmpose
+pip install "mmcv<2.1.0" -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0/index.html
 wget https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
 tar -xf ffmpeg-git-amd64-static.tar.xz
 rm -rf ffmpeg-git-amd64-static.tar.xz
